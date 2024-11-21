@@ -1,0 +1,12 @@
+.star-rating {
+  left: 20px;
+}
+.star {
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .filled {
+    color: rgb(206, 189, 0);
+  }
