@@ -127,19 +127,19 @@ const PriceTrackerForm = ({
             */}
             <div>
               <Form.Group>
-                <Form.Label>Product Name</Form.Label>
+                <Form.Label className="text-center" style={{width: "100%"}}>Product Name</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Product Name"
+                  placeholder=" Enter Product Name"
                   value={currName}
                   onChange={handleNameChange}
                 />
               </Form.Group>
               <Form.Group>
-                <Form.Label>Product Number</Form.Label>
+                <Form.Label className="text-center" style={{width: "100%"}}>Product Number</Form.Label>
                 <Form.Control
                   type="text"
-                  placeholder="Product Number"
+                  placeholder="Enter Product Number"
                   value={currNumber}
                   onChange={handleNumberChange}
                 />
@@ -149,7 +149,7 @@ const PriceTrackerForm = ({
               {inputs.map((item, index) => (
                 <div key={index}>
                   <Form.Group>
-                    <Form.Label>Tracked Website</Form.Label>
+                    <Form.Label className="text-center" style={{width: "100%"}}>Tracked Website</Form.Label>
                     <Form.Control
                       type="text"
                       placeholder="Enter Website To Track"

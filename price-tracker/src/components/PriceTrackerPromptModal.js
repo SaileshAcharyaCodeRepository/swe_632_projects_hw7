@@ -72,7 +72,7 @@ const PriceTrackerPromptModal = ({ isOpen, onClose, onSubmit }) => {
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Product Name</Form.Label>
+              <Form.Label className="text-center" style={{width: "100%"}}>Product Name</Form.Label>
               <OverlayTrigger
                 placement="right"
                 overlay={
@@ -96,7 +96,7 @@ const PriceTrackerPromptModal = ({ isOpen, onClose, onSubmit }) => {
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Label>Manufacturer Product Number</Form.Label>
+              <Form.Label className="text-center" style={{width: "100%"}}>Manufacturer Product Number</Form.Label>
               <OverlayTrigger
                 placement="right"
                 overlay={
@@ -120,7 +120,7 @@ const PriceTrackerPromptModal = ({ isOpen, onClose, onSubmit }) => {
               className="mb-3"
               controlId="exampleForm.ControlTextarea1"
             >
-              <Form.Label>Website to Track</Form.Label>
+              <Form.Label className="text-center" style={{width: "100%"}}>Website to Track</Form.Label>
               <OverlayTrigger
                 placement="right"
                 overlay={
