@@ -42,8 +42,8 @@ const PriceTrackerCard = ({
           alt="image"
         />
         <Card.Body>
-          <Card.Title>{currName}</Card.Title>
-          <Card.Text>Mfr Num : {currNumber}</Card.Text>
+          <Card.Title className="text-truncate" style={{ width: '200px' , overflow: 'hidden', textOverflow: 'ellipsis'}}>{currName}</Card.Title>
+          <Card.Text className="text-truncate" style={{ width: '150px', overflow: 'hidden', textOverflow: 'ellipsis' }}>Mfr Num : {currNumber}</Card.Text>
           {/*
           console.log(
             "Card Body: ",

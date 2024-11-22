@@ -1,7 +1,7 @@
 {
   "name": "price-tracker",
   "version": "0.1.0",
-  "homepage": "https://SaileshAcharyaCodeRepository.github.io/swe_632_projects_hw6",
+  "homepage": "https://SaileshAcharyaCodeRepository.github.io/swe_632_projects_hw7",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
