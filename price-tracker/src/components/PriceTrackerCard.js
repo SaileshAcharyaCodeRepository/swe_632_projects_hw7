@@ -83,7 +83,7 @@ const PriceTrackerCard = ({
                   {
                     //console.log("currItem: ", currItem)
                   }
-                  {currItem.websites
+                  {currItem.websites.sort()
                     .filter((item) => item)
                     .map((item, index) => (
                       <tr key={index}>
