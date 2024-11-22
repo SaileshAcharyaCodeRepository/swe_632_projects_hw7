@@ -148,7 +148,6 @@ const HelpPage = () => {
 
       <div
         className="price-tracker-contact-us-page"
-        style={{ border: "1px solid black" }}
       >
         <div>
           <br />
